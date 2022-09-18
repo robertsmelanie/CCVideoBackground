@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
+
+
 *{
     padding: 0;
     margin: 0;
@@ -61,8 +63,8 @@ video{
     object-fit: cover;
 
     /* Blur the video */
-    /* filter:blur(ps);
-    transform: scale(1.15); */
+    /* filter:blur(ps);  */
+    /* transform: scale(1.15); */
     
 }
 
@@ -76,7 +78,7 @@ video{
     
 }
 #content{
-    color: white;
+    color: goldenrod;
     z-index: 2;
     text-align: center;
 }
@@ -89,10 +91,10 @@ video{
     margin-top: 25px;
     border: 2px solid white;
     padding: 10px 30px;
-    background-color: #4b5163;
+    background-color:cornflowerblue;
     /* Inline-block allows you to set top and bottom margin as well as width and height. This is not the case with inline */
     /* A elements will NOT inherit text color like other text elements will. So you Must apply it directly */
-    color: white;
+    color: darkblue;
     border-radius: 10px;
     font-size: 20px;
     opacity: 0.8;
@@ -101,7 +103,8 @@ video{
 #click:hover {
     /* Changes the size of an element */
     
-    transform: scale(0.95);
+    transform: scale(0.85);
+    
 }
 
 #about {
@@ -117,7 +120,7 @@ video{
 }
 #about h2 {
     margin: 40px 0;
-    color: #4b5163;
+    color: cornflowerblue;
 }
 
 i {
